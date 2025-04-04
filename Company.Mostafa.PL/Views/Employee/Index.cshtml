@@ -1,0 +1,92 @@
+@using Company.Mostafa.PL.ViewModels
+@model IEnumerable<EmployeeViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>All Employees</h1>
+
+<form asp-action="Index">
+    <div class="row m-5">
+        <div class="col-8 ">
+            <input type="text" class="form-control" placeholder="Search By Name" name="searchInput" id="searchInput" />
+        </div>
+        <div class="col-4">
+            <input type="submit" class="btn btn-success" value="Search"/>
+        </div>
+    </div>
+</form>
+@* <div class="alert alert-danger">
+    <p>@ViewData["Message"]</p>
+</div>
+
+<div class="alert alert-warning">
+    <p>@ViewBag.Message</p>
+</div>
+ *@
+@if (!string.IsNullOrEmpty(TempData["Message"] as string))
+{
+<div class="alert alert-success">
+    <p>@TempData["Message"]</p>
+</div>
+    
+}
+<a asp-action="Create" class="btn btn-primary">Create Employee</a>
+<br />
+
+@if(Model.Count() > 0)
+{
+    <div>
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(X=>X.Image)</th>
+                <th>@Html.DisplayNameFor(X=>X.Name)</th>
+                <th>@Html.DisplayNameFor(X => X.Age)</th>
+                <th>@Html.DisplayNameFor(X => X.Address)</th>
+                <th>@Html.DisplayNameFor(X=>X.WorkFor)</th>
+                <th>@Html.DisplayNameFor(X => X.Email)</th>
+                <th>@Html.DisplayNameFor(X => X.Phone)</th>
+                <th>@Html.DisplayNameFor(X => X.Salary)</th>
+                <th>@Html.DisplayNameFor(X => X.IsActive)</th>
+                <th>@Html.DisplayNameFor(X => X.HiringDate)</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach(var employee in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="~/Files/images/@employee.ImageName" class="img-fluid rounded-circle" width="75"/>
+                    </td>
+                    <td>@Html.DisplayFor(M=>employee.Name)</td>
+                    <td>@Html.DisplayFor(M => employee.Age)</td>
+                    <td>@Html.DisplayFor(M=>employee.Address)</td>
+                    <td>@Html.DisplayFor(M=>employee.WorkFor.Name)</td>
+                    <td>@Html.DisplayFor(M => employee.Email)</td>
+                    <td>@Html.DisplayFor(M=>employee.Phone)</td>
+                    <td>@Html.DisplayFor(M => employee.Salary)</td>
+                    <td>@Html.DisplayFor(M => employee.IsActive)</td>
+                    <td>@Html.DisplayFor(M => employee.HiringDate)</td>
+                    <partial name="_IndexPartialView" model="employee.Id.ToString()"></partial>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <center>
+    <h4 class="alert alert-danger">There are no Employees</h4>
+    </center>
+}
+
+
+
+
+

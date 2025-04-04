@@ -1,0 +1,76 @@
+@model IEnumerable<RoleViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+<br />
+<br />
+
+<form asp-action="Index" class="form-group">
+    <div class="row m-5">
+        <div class="col-8">
+            <input type="text" class="form-control" placeholder="Search By Name" name="searchInput" id="searchInput"  />
+        </div>
+        <div class="col-4">
+            <input type="submit" class="btn btn-success" value="Search" />
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Create" class="btn btn-primary">Create Role</a>
+</div>
+
+@if(Model.Count() > 0)
+{
+    <table class="table table-striped table-hover">
+       <thead>
+           <tr>
+                 <th>@Html.DisplayNameFor(X=>X.Id)</th>
+                 <th>@Html.DisplayNameFor(X=>X.RoleName)</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+       </thead>
+       <tbody>
+            @foreach(var role in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(X=>role.Id)</td>
+                    <td>@Html.DisplayFor(X => role.RoleName)</td>
+                    <partial name="_IndexPartialView" model="@role.Id" />
+                </tr>
+            }
+        </tbody>
+   </table>
+}
+else
+{
+    <center>
+        <h4 class="alert alert-danger">There are no Roles</h4>
+    </center>
+}
+
+
+<script>
+    const Searchbar =$('searchInput');
+    const Table = $('Table');
+    Searchbar.on('Keyup' , function(e){
+        var Searchvalue = Searchbar.val();
+        $.ajax({
+            url : 'Employee/Search',
+            type:'Get',
+            date : {searchInput : Searchvalue},
+            success: function(result){Table.html(result)},
+            error: function(xhr,status,error){consol.log(error)},
+        })
+    })
+
+
+</script>
+
+
+

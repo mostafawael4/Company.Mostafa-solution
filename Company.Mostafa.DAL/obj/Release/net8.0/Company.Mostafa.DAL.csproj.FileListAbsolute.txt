@@ -1,0 +1,13 @@
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\bin\Release\net8.0\Company.Mostafa.DAL.deps.json
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\bin\Release\net8.0\Company.Mostafa.DAL.dll
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\bin\Release\net8.0\Company.Mostafa.DAL.pdb
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\Company.Mostafa.DAL.csproj.AssemblyReference.cache
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\Company.Mostafa.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\Company.Mostafa.DAL.AssemblyInfoInputs.cache
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\Company.Mostafa.DAL.AssemblyInfo.cs
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\Company.Mostafa.DAL.csproj.CoreCompileInputs.cache
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\Company.Mostafa.DAL.sourcelink.json
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\Company.Mostafa.DAL.dll
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\refint\Company.Mostafa.DAL.dll
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\Company.Mostafa.DAL.pdb
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.DAL\obj\Release\net8.0\ref\Company.Mostafa.DAL.dll

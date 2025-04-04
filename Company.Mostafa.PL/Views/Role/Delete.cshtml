@@ -1,0 +1,15 @@
+@model RoleViewModel
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Delete</h1>
+
+<form asp-action="Delete">
+    <partial name="PartialView/DetailsDeleteRolePartialView" model="Model" />
+    <br />
+    <input type="submit" class="btn btn-danger" value="Delete" />
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
+

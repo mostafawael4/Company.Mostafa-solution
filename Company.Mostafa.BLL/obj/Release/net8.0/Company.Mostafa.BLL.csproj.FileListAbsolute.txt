@@ -1,0 +1,16 @@
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\bin\Release\net8.0\Company.Mostafa.BLL.deps.json
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\bin\Release\net8.0\Company.Mostafa.BLL.dll
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\bin\Release\net8.0\Company.Mostafa.BLL.pdb
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\bin\Release\net8.0\Company.Mostafa.DAL.dll
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\bin\Release\net8.0\Company.Mostafa.DAL.pdb
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company.Mostafa.BLL.csproj.AssemblyReference.cache
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company.Mostafa.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company.Mostafa.BLL.AssemblyInfoInputs.cache
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company.Mostafa.BLL.AssemblyInfo.cs
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company.Mostafa.BLL.csproj.CoreCompileInputs.cache
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company.Mostafa.BLL.sourcelink.json
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company..8D15D71C.Up2Date
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company.Mostafa.BLL.dll
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\refint\Company.Mostafa.BLL.dll
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\Company.Mostafa.BLL.pdb
+E:\Route Academy\backend\Company.Mostafa-solution\Company.Mostafa.BLL\obj\Release\net8.0\ref\Company.Mostafa.BLL.dll
